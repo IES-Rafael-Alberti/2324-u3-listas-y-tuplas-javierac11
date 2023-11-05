@@ -19,5 +19,5 @@ def eliminarMultiplosDe3(abecedario):
 
 if __name__ == '__main__':
     abecedario = generaAbecedario()
-
-    print(eliminarMultiplosDe3(abecedario))
+    abecedario_sin_multiplos_3 = eliminarMultiplosDe3(abecedario)
+    print(abecedario_sin_multiplos_3)
